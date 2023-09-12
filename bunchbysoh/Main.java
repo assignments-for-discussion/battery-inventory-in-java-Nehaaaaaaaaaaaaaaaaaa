@@ -17,7 +17,7 @@ public class Main {
       if(stateofhealth>=80.0 && stateofhealth<=100.0)
         counts.healthy++;
       else if(stateofhealth >=63.0 && stateofhealth <80.0)
-        count.exchange++;
+        counts.exchange++;
       else if(stateofhealth <63.0)
         counts.failed++;
     }
